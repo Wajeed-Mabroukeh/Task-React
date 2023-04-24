@@ -2,7 +2,7 @@
 
 function SubTitle() {
     return (
-        <p>What city is located on two continents?</p>
+        <h1>What city is located on two continents?</h1>
     );
   }
   

@@ -1,4 +1,5 @@
-///import './App.css';
+
+export let button = document.getElementById("button");
 
 function Submit() {
     return (

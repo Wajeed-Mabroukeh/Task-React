@@ -1,8 +1,8 @@
-///import './App.css';
-
+import './PLoading.css';
+export let loadingMessage = document.getElementById("loading");
 function PLoading() {
     return (
-        <p id="loading" style="display: none">Loading...</p>
+        <p id="loading" >Loading...</p>
     );
   }
   

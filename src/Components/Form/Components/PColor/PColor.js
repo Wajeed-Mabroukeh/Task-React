@@ -1,8 +1,10 @@
-///import './App.css';
-
+import './PColor.css';
+export let errorMessage = document.getElementById("error");
 function PColor() {
     return (
-        <p id="error" style="display: none; color: red"></p>
+        <>
+        <p id="error" ></p>
+        </>
     );
   }
   

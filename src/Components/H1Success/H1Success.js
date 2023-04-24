@@ -1,12 +1,12 @@
 
 import './H1Success.css';
 
-let successMessage = document.getElementById("success");
+export let successMessage = document.getElementById("success");
 
 function H1Success() {
   return (
     <>
-    <h1 id="success" style="display: none">That's right!</h1>
+    <h1 id="success" >That's right!</h1>
     </>
    
   );
